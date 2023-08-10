@@ -1,0 +1,111 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4em auto;
+    padding: 1em;
+    height: 700px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+}
+
+.container .profile-img {
+    margin: 2em 0;
+    margin: -70px 0 2em 0;
+}
+
+.container .profile-img i {
+    font-size: 35px;
+    line-height: 30px;
+    color: #fff;
+    background-color: #1e232ed8;
+    border: 1px solid #fff;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+.container h1 {
+    font-size: 40px;
+    padding-bottom: 0.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form .input-data {
+    background-color: #1e232ed8;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.input-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 1em;
+    border: 0.5px solid #fff;
+}
+
+.input-data i {
+    padding: 5px;
+    color: #fff;
+}
+
+.input-data input {
+    width: 18em;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+form .login-form-btn {
+    display: block;
+    cursor: pointer;
+    margin: auto;
+    padding: 0.8em 3em;
+    margin-top: 1em;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background-color: #1e232ed8;
+    color: #fff;
+    transition: 0.3s;
+}
+
+form .login-form-btn:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.container p {
+    padding-top: 30px;
+    color: #fff;
+}
+
+.container p a:hover {
+    text-decoration: underline;
+}
+
+.container p a {
+    text-decoration: none;
+    color: rgb(113, 209, 241);
+}
+
+form .error-msg p {
+    padding: 0;
+    color: red;
+    display: inline;
+}
