@@ -44,7 +44,7 @@
                 <h3>Address</h3>
                 <p>{{userData?.address || 'Change Information'}}</p>
             </div>
-          
+            <button class="edit-btn" (click)="toggleEditMode()">EDIT</button>
         </div>
 
         <div class="user-details-form" *ngIf="isEditMode">

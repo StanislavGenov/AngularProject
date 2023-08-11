@@ -94,6 +94,13 @@ export class ProfileComponent implements OnInit {
       return;
     }
 
-   
+    this.userService.editUserData(this.userId, form.value).then((res) => {
+      this.toggleEditMode();
+      this.toastr.success(
+        'Profile information has been successfully updated!',
+        'Update Notifiaction'
+      );
+      this.toastr.warning('Refresh to update information!', 'Tip:');
+    });
   }
 }
